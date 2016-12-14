@@ -18,7 +18,7 @@ while ( ++$i <= $number) {
 		print "\033[35m FB \033[0m";
 	} elseif ($i % $fizz == 0 ) {
 		print "\033[31m F \033[0m";
-	} elseif ($i % $buzz ==0) {
+	} elseif ($i % $buzz == 0) {
 		print "\033[33m B \033[0m";
 	} else print $i;	
 }
