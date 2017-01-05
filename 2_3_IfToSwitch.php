@@ -1,5 +1,6 @@
 <?php
-
+/*Переписать скрипт оператора if->elseif->else так,
+чтобы использовалась конструкция switch->case->break*/
 echo "Give it to me!\n";
 $handle = fopen ("php://stdin","r");
 $number = fgets($handle);
